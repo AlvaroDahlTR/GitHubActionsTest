@@ -25,5 +25,5 @@ jobs:
     - name: Build TESTDATA with Maven
       run: mvn -f MAFAutomation_MAF-Application-Testdata/pom.xml -DBranch=main clean install
     - name: Build TEST with Maven
-      run: mvn -f MAFAutomation_CHP-Application-Test/pom.xml -DBranch=main -DRegressionPath=TestNGTestScripts/chpmex_qc_Regression.xml clean install
+      run: cmd.exe /C "C:\Maven\apache-maven-3.6.3\bin\mvn.cmd -f MAFAutomation_CHP-Application-Test/pom.xml -DBranch=working-branch -DRegressionPath=TestNGTestScripts/chpmex_qc_Regression.xml clean install && exit %%ERRORLEVEL%%
       
