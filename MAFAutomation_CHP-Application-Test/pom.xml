@@ -128,6 +128,15 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.12</version>
 					<inherited>true</inherited>
+					<executions>
+						<execution>
+							<id>default-clean</id>
+							<phase>clean</phase>
+							<goals>
+								<goal>clean</goal>
+							</goals>
+						</execution>
+					</executions>
 					<configuration>
 						<suiteXmlFiles>
 							<suiteXmlFile>${project.basedir}/${RegressionPath}</suiteXmlFile>
