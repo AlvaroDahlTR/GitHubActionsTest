@@ -130,16 +130,16 @@
 					<inherited>true</inherited>
 					<executions>
 						<execution>
-							<id>default-test</id>
-							<phase>test</phase>
+							<id>default-clean</id>
+							<phase>clean</phase>
 							<goals>
-								<goal>test</goal>
+								<goal>clean</goal>
 							</goals>
 						</execution>
 					</executions>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>${project.basedir}/${RegressionPath}</suiteXmlFile>
+							<suiteXmlFile>TestNGTestScripts/chpmex_qc_Regression.xml</suiteXmlFile>
 						</suiteXmlFiles>
 						<testFailureIgnore>true</testFailureIgnore>
 					</configuration>
