@@ -133,11 +133,11 @@ public static boolean GridEnabled;
 			desiredCapabilities.setCapability(ChromeOptions.CAPABILITY, options);
 
 			options.addArguments("--headless"); // only if you are ACTUALLY running headless
-			// options.addArguments("--no-sandbox");
+			options.addArguments("--no-sandbox");
 			// //https://stackoverflow.com/a/50725918/1689770
 			// options.addArguments("--disable-infobars");
 			// //https://stackoverflow.com/a/43840128/1689770
-			// options.addArguments("--disable-dev-shm-usage");
+			options.addArguments("--disable-dev-shm-usage");
 			// //https://stackoverflow.com/a/50725918/1689770
 			options.addArguments("--disable-browser-side-navigation"); // https://stackoverflow.com/a/49123152/1689770
 			// options.addArguments("--disable-gpu");
