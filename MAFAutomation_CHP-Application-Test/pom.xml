@@ -139,7 +139,7 @@
 					</executions>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>TestNGTestScripts/chpmex_qc_Regression.xml</suiteXmlFile>
+							<suiteXmlFile>TestNGTestScripts/chptest_regression.xml</suiteXmlFile>
 						</suiteXmlFiles>
 						<testFailureIgnore>true</testFailureIgnore>
 					</configuration>
