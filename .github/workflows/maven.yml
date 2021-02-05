@@ -20,7 +20,10 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-   
+        
+    - name: Install Chrome in Machine
+      run: $Path = $env:TEMP; $Installer = "chrome_installer.exe"; Invoke-WebRequest "http://dl.google.com/chrome/install/375.126/chrome_installer.exe" -OutFile $Path\$Installer; Start-Process -FilePath $Path\$Installer -Args "/silent /install" -Verb RunAs -Wait; Remove-Item $Path\$Installer
+
     - name: Build CORE with Maven
       run: mvn -f MAFAutomation_MAF-Application-Core/pom.xml -DBranch=main clean install
     - name: Build TESTDATA with Maven
