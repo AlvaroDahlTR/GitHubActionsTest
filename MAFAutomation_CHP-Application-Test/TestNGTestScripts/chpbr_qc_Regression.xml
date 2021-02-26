@@ -4,10 +4,7 @@
 
  	<parameter name="Environment" value="qc"/>
 	<parameter name="ProductToTest" value="chpbr"/>
-	<parameter name="Browser" value="firefox"/>
-	<parameter name="GridEnabled" value="true"/>
-	<parameter name="HubURL" value="http://10.25.30.4"/>
-	<parameter name="Port" value=":4848"/>
+	<parameter name="Browser" value="chrome"/>
 	
 	
 	<listeners>

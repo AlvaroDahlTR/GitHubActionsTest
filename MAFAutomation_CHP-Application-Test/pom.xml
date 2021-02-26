@@ -97,9 +97,9 @@
 				</plugin>
 
 				<plugin>
-
+					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-clean-plugin</artifactId>
-					<version>2.5</version>
+					<version>3.1.0</version>
 					<executions>
 						<execution>
 							<id>default-clean</id>
@@ -126,22 +126,12 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.12</version>
-					<inherited>true</inherited>
-					<executions>
-						<execution>
-							<id>default-clean</id>
-							<phase>clean</phase>
-							<goals>
-								<goal>clean</goal>
-							</goals>
-						</execution>
-					</executions>
+					<version>3.0.0-M5</version>
 					<configuration>
+						<groups>chpbr</groups>
 						<suiteXmlFiles>
 							<suiteXmlFile>TestNGTestScripts/chptest_regression.xml</suiteXmlFile>
 						</suiteXmlFiles>
-						<testFailureIgnore>true</testFailureIgnore>
 					</configuration>
 				</plugin>
 			</plugins>
