@@ -130,7 +130,7 @@
 					<configuration>
 						<groups>chpbr</groups>
 						<suiteXmlFiles>
-							<suiteXmlFile>TestNGTestScripts/chptest_regression.xml</suiteXmlFile>
+							<suiteXmlFile>TestNGTestScripts/chpury_qc_Regression.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>

@@ -127,7 +127,7 @@ public static boolean GridEnabled;
 			options.setExperimentalOption("prefs", chromePrefs);
 			final DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 			options.addArguments("--test-type", "ignore-certifcate-errors");
-			options.addArguments("start-maximized"); // https://stackoverflow.com/a/26283818/1689770
+			//options.addArguments("start-maximized"); // https://stackoverflow.com/a/26283818/1689770
 			options.addArguments("enable-automation"); // https://stackoverflow.com/a/43840128/1689770
 			desiredCapabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 			desiredCapabilities.setCapability(ChromeOptions.CAPABILITY, options);
