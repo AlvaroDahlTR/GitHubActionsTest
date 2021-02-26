@@ -11,6 +11,7 @@ on:
 
 jobs:
   build:
+    name: CHP URY QC REGRESSION
 
     runs-on: self-hosted
 
