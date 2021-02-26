@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1,133.701 s <<< FAILURE! - in TestSuite
+com.trgr.quality.maf.tests.LoginTest.loginWithValidAndInvalidCredentials  Time elapsed: 523.319 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	MAFQABANG-32:Login with valid and invalid credentails : Validated Login with invalid username expected [true] but found [false],
+	MAFQABANG-32:Login with valid and invalid credentails : Validated Login with invalid password expected [true] but found [false],
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.LoginTest.loginWithValidAndInvalidCredentials(LoginTest.java:123)
+
+com.trgr.quality.maf.tests.LoginTest.loginUsingSaveUserNameAndPwd  Time elapsed: 241.836 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.LoginTest.loginUsingSaveUserNameAndPwd(LoginTest.java:218)
+
+com.trgr.quality.maf.tests.LoginTest.loginUsingSaveUserName  Time elapsed: 240.693 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.LoginTest.loginUsingSaveUserName(LoginTest.java:432)
+
