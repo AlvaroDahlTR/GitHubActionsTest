@@ -358,5 +358,5 @@
 		<classes>
 			<class name="com.trgr.quality.maf.tests.HomeTest" />
 		</classes>
-	</test>
+	</test> -->
 </suite>
