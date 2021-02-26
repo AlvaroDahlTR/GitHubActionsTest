@@ -23,7 +23,7 @@
 			<class name="com.trgr.quality.maf.tests.LoginTest" />
 		</classes>
 	</test>
-<!--
+<!-- 
 	<test name="ActionsTest" preserve-order="true">
 		<groups>
 			<run>

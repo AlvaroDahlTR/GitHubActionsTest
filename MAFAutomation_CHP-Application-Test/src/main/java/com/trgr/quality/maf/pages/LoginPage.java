@@ -215,10 +215,9 @@ public class LoginPage extends BasePage {
 		try {
 			WebElement loc = elementhandler.getElement(
 					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".saveboth"));
-			if (!loc.isSelected()) {
 				((JavascriptExecutor) driver).executeScript("arguments[0].click();", elementhandler.getElement(
 						PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".saveboth")));
-			}
+			
 			// normal click is throwing Exception.class hence added java script click
 			// elementhandler.clickElement(
 			// PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest +
