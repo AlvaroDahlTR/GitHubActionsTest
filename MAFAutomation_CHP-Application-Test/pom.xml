@@ -110,7 +110,7 @@
 						</execution>
 					</executions>
 					<configuration>
-						<excludeDefaultDirectories>true</excludeDefaultDirectories>
+						<excludeDefaultDirectories>false</excludeDefaultDirectories>
 						<filesets>
 							<fileset>
 								<directory>target/</directory>
@@ -128,7 +128,7 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.0.0-M5</version>
 					<configuration>
-						<groups>chpbr</groups>
+						<groups>chpury</groups>
 						<suiteXmlFiles>
 							<suiteXmlFile>TestNGTestScripts/chpury_qc_Regression.xml</suiteXmlFile>
 						</suiteXmlFiles>

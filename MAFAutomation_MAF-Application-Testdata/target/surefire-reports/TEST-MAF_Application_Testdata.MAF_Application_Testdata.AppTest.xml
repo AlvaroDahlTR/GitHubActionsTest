@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="MAF_Application_Testdata.MAF_Application_Testdata.AppTest" time="0.011" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="MAF_Application_Testdata.MAF_Application_Testdata.AppTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15+36-1562"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Workstation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Workstation\MAFAutomation_MAF-Application-Testdata"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Workstation"/>
+    <property name="user.dir" value="C:\Workstation\MAFAutomation_MAF-Application-Testdata"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="15+36-1562"/>
     <property name="os.arch" value="amd64"/>
@@ -43,7 +43,7 @@
     <property name="java.class.path" value="C:\Maven\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="15"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f MAFAutomation_MAF-Application-Testdata/pom.xml clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-15"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,5 +60,5 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="MAF_Application_Testdata.MAF_Application_Testdata.AppTest" name="testApp" time="0.011"/>
+  <testcase classname="MAF_Application_Testdata.MAF_Application_Testdata.AppTest" name="testApp" time="0.004"/>
 </testsuite>
