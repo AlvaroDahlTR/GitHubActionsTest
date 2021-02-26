@@ -12,8 +12,18 @@
 		<listener
 			class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener" />
 	</listeners>
-
-
+	
+	<test name="LoginTest" preserve-order="true">
+		<groups>
+			<run>
+				<include name="chpury" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.LoginTest" />
+		</classes>
+	</test>
+<!--
 	<test name="ActionsTest" preserve-order="true">
 		<groups>
 			<run>
@@ -160,16 +170,7 @@
 		</classes>
 	</test>
 
-	<test name="LoginTest" preserve-order="true">
-		<groups>
-			<run>
-				<include name="chpury" />
-			</run>
-		</groups>
-		<classes>
-			<class name="com.trgr.quality.maf.tests.LoginTest" />
-		</classes>
-	</test>
+	
 
 	<test name="MyDocumentTest" preserve-order="true">
 		<groups>
@@ -258,9 +259,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="ToolsTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="ToolsTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
